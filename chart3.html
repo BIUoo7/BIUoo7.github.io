@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>原神万能攻略站（Genshin Impact Wiki）</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      .warp{width:100%;margin:0px;}
+    .Tab{position:relative;margin:0 auto;top: 50px; }
+      #Tab .active{  background:#99CCFF;      }
+    #Tab input{ width:74px; background:#FFFFCC; height:30px;height:30px;font-weight:bold;}
+      #Tab div{ width:100%; height:200px;  background:snow;   border:0px solid #000; display:none; }
+    </style>
+        <script src="scripts/23333.js"></script>
+        <script src="scripts/233.js"></script>
+    <script>
+      window.onload=function (){
+        var oDiv=document.getElementById('Tab');
+        var aBtn=oDiv.getElementsByTagName('input');
+        var aDiv=oDiv.getElementsByTagName('div');
+        for(var i=0;i<aBtn.length;i++){    
+          aBtn[i].index=i;     
+          aBtn[i].onmouseover=function (){
+            for(var i=0;i<aBtn.length;i++){
+              aBtn[i].className='';
+              aDiv[i].style.display='none';
+            }
+            this.className='active';
+            aDiv[this.index].style.display='block';
+          }
+        }
+      }
+    </script>
+</head>
+<body>
+  <div class="top">
+    <div class="toptent">
+      <ul>
+        <li><a href="#">加入收藏</a></li>
+        <li><a href="#">联系我们</a></li>
+        <li><a href="#">登陆注册</a></li>
+    </div>
+      </ul>
+  </div>
+<div class="header">
+  <h1>原神万能攻略站</h1>
+  <p>Genshin impact wiki</p>
+</div>
+
+<div class="topnav">
+  <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">图鉴</a>
+                    <ul>
+                        <li><a href="#">角色一览</a></li>
+                        <li><a href="#">武器一览</a></li>
+                        <li><a href="#">圣遗物一览</a></li>
+                        <li><a href="#">物品一览</a></li>
+                        <li><a href="#">怪物一览</a></li>
+                        <li><a href="#">书籍一览</a></li>
+                        <li><a href="#">道具一览</a></li>                   
+                    </ul>
+                </li>
+                <li><a href="#">攻略&活动</a>
+                    <ul>
+                        <li><a href="#">最新活动</a></li>
+                        <li><a href="#">人物培养攻略</a></li>
+                        <li><a href="#">配队攻略</a></li>
+                        <li><a href="#">深渊攻略</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">任务</a>
+                    <ul>
+                        <li><a href="#">魔神任务</a></li>
+                        <li><a href="#">传说任务</a></li>
+                        <li><a href="#">世界任务</a></li>
+                        <li><a href="#">委托任务</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">大地图</a>
+
+            </ul>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card4">
+      <table id="CardSelectTr" class="CardSelect wikitable sortable" style="width:100%;text-align: center;margin-top:5px;font-size:12px">
+
+<tr id="CardSelectTabHeader">
+<th style="width:8%">
+</th>
+<th style="width:8%">名称
+</th>
+<th style="width:8%">最低稀有度
+</th>
+<th style="width:8%">最高稀有度
+</th>
+<th style="width:12%">获取途径
+</th>
+<th style="width:15%">两件套效果
+</th>
+<th style="width:30%">四件套效果
+</th>
+<th>TAG
+</th></tr>
+<tr>
+<td><a><img src="images/圣遗物/游医.png" width="60" height="60"></a>
+</td>
+<td><a>游医</a>
+</td>
+<td>1星
+</td>
+<td>3星
+</td>
+<td><a>铭记之谷：祝圣秘境：钢铁之舞</a>
+</td>
+<td style="text-align:left">角色受到的治疗效果提高20%。
+</td>
+<td style="text-align:left">施放元素爆发时，恢复20%生命值。
+</td>
+<td style="text-align:left">恢复生命值<br />受治疗效果
+</td></tr>
+<tr>
+<td><a><img src="images/圣遗物/冒险家.png" width="60" height="60"></a>
+</td>
+<td><a>冒险家</a>
+</td>
+<td>1星
+</td>
+<td>3星
+</td>
+<td><a>宝箱；打怪掉落；仲夏庭园：祝圣秘境：净化之炎</a>
+</td>
+<td style="text-align:left">生命值上限提升1000点。
+</td>
+<td style="text-align:left">开启各类宝箱后5秒内，持续恢复30%生命值。  
+</td>
+<td style="text-align:left">生命值<br />恢复生命值
+</td></tr><tr>
+<td><a><img src="images/圣遗物/幸运儿.png" width="60" height="60"></a>
+</td>
+<td><a>幸运儿  </a>
+</td>
+<td>1星
+</td>
+<td>3星
+</td>
+<td><a>宝箱；打怪掉落；孤云凌霄之处：祝圣秘境：惊蛰的霜雷</a>
+</td>
+<td style="text-align:left">防御力提高100点。
+</td>
+<td style="text-align:left">拾取摩拉时，恢复300点生命值。
+</td>
+<td style="text-align:left">恢复生命值<br />防御力
+</td></tr><tr>
+<td><a><img src="images/圣遗物/赌徒.png" width="60" height="60"></a>
+</td>
+<td><a>赌徒</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>华池岩岫：祝圣秘境：岩牢Ⅰ至Ⅲ
+芬德尼尔之顶：祝圣秘境：告死之霜Ⅰ至Ⅳ</a>
+</td>
+<td style="text-align:left">元素战技造成的伤害提升20%
+</td>
+<td style="text-align:left">击败敌人时，有100%概率清除元素战技的冷却时间。该效果每15秒至多触发一次。
+</td>
+<td style="text-align:left">元素战技伤害
+<br />减少元素战技CD
+</td></tr><tr>
+<td><a><img src="images/圣遗物/祭水之人.png" width="60" height="60"></a>
+</td>
+<td><a>祭水之人</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>纯水精灵掉落</a>
+</td>
+<td style="text-align:left">（套装仅一件）受到的水元素附着效果的持续时间减少40%
+</td>
+<td style="text-align:left">无
+</td>
+<td style="text-align:left">元素附着效果减轻<br />
+</td></tr><tr>
+<td><a><img src="images/圣遗物/学士.png" width="60" height="60"></a>
+</td>
+<td><a>学士</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>华池岩岫：祝圣秘境：岩牢</a>
+</td>
+<td style="text-align:left">元素充能效率提高20%
+</td>
+<td style="text-align:left">获得元素微粒或元素晶球时，队伍中所有弓箭和法器角色额外恢复3点元素能量。该效果每3秒只能触发一次。
+</td>
+<td style="text-align:left">元素充能效率<br />元素充能
+</td></tr><tr>
+<td><a><img src="images/圣遗物/战狂.png" width="60" height="60"></a>
+</td>
+<td><a>战狂</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>神龛；宝箱；打怪掉落</a>
+</td>
+<td style="text-align:left">暴击率提高12%。
+</td>
+<td style="text-align:left">生命值低于70%时，暴击率额外提高24%。
+</td>
+<td style="text-align:left">暴击率<br />
+</td></tr><tr>
+<td><a><img src="images/圣遗物/武人.png" width="60" height="60"></a>
+</td>
+<td><a>武人</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>无妄引咎密宫：祝圣秘境：寒霜</a>
+</td>
+<td style="text-align:left">普通攻击与重击造成的伤害提高15%。
+</td>
+<td style="text-align:left">施放元素战技后的8秒内，普通攻击和重击造成的伤害提升25%。
+</td>
+<td style="text-align:left">普攻伤害<br />重击伤害
+</td></tr><tr>
+<td><a><img src="images/圣遗物/守护之心.png" width="60" height="60"></a>
+</td>
+<td><a>守护之心</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>无妄引咎密宫：祝圣秘境：寒霜
+芬德尼尔之顶：祝圣秘境：告死之霜Ⅰ至Ⅳ</a>
+</td>
+<td style="text-align:left">防御力提高30%。
+</td>
+<td style="text-align:left">队伍里每有不同一种元素类型的自己的角色，自身获得30%相应的元素抗性。
+</td>
+<td style="text-align:left">元素抗性<br />防御力
+</td></tr><tr>
+<td><a><img src="images/圣遗物/祭雷之人.png" width="60" height="60"></a>
+</td>
+<td><a>祭雷之人</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>无相之雷掉落</a>
+</td>
+<td style="text-align:left">套装仅一件）受到的雷元素附着效果的持续时间减少40%
+</td>
+<td style="text-align:left">无
+</td>
+<td style="text-align:left">元素附着效果减轻<br />
+</td></tr><tr>
+<td><a><img src="images/圣遗物/流放者.png" width="60" height="60"></a>
+</td>
+<td><a>流放者</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>宝箱；击杀精英级怪物,BOSS级怪物</a>
+<td style="text-align:left">元素充能效率提高20%
+</td>
+<td style="text-align:left">施放元素爆发后，每2秒为队伍中所有角色（不包括自己）恢复2点元素能量。该效果持续6秒，无法叠加
+</td>
+<td style="text-align:left">元素充能<br/>元素充能效率
+</td>
+</td></tr>
+<td><a><img src="images/圣遗物/行者之心.png" width="60" height="60"></a>
+</td>
+<td><a>行者之心</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>神龛；宝箱；仲夏庭园：祝圣秘境：净化之炎 </a>
+</td>
+<td style="text-align:left">攻击力提高18%。
+</td>
+<td style="text-align:left">重击的暴击率提高30%。
+</td>
+<td style="text-align:left">攻击力<br/>暴击率
+</td></tr><tr>
+<td><a><img src="images/圣遗物/祭冰之人.png" width="60" height="60"></a>
+</td>
+<td><a>祭冰之人</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>急冻树掉落</a>
+</td>
+<td style="text-align:left">（套装仅一件）受到的冰元素附着效果的持续时间减少40%
+</td>
+<td style="text-align:left">无
+</td>
+<td style="text-align:left">元素附着效果减轻<br />
+</td></tr><tr>
+<td><a><img src="images/圣遗物/奇迹.png" width="60" height="60"></a>
+</td>
+<td><a>奇迹</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>铭记之谷：祝圣秘境：钢铁之舞</a>
+</td>
+<td style="text-align:left">所有元素抗性提高20%。
+</td>
+<td style="text-align:left">受到某个元素类型的伤害后，相应的抗性提升30%，持续10秒。该效果每10秒只能触发一次。
+</td>
+<td style="text-align:left">元素抗性<br />
+</td></tr><tr>
+<td><a><img src="images/圣遗物/勇士之心.png" width="60" height="60"></a>
+</td>
+<td><a>勇士之心</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>孤云凌霄之处：祝圣秘境：惊蛰</a>
+</td>
+<td style="text-align:left">攻击力提高18%。
+</td>
+<td style="text-align:left">对生命值高于50%的敌人，造成的伤害增加30%。
+</td>
+<td style="text-align:left">攻击力<br />伤害
+</td></tr><tr>
+<td><a><img src="images/圣遗物/教官.png" width="60" height="60"></a>
+</td>
+<td><a>教官</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>宝箱；打怪掉落</a>
+</td>
+<td style="text-align:left">元素精通提高80点。
+</td>
+<td style="text-align:left">触发元素反应后。队伍中所有角色元素精通提高120点，持续8秒。
+</td>
+<td style="text-align:left">元素精通<br />
+</td></tr><tr>
+<td><a><img src="images/圣遗物/祭火之人.png" width="60" height="60"></a>
+</td>
+<td><a>祭火之人</a>
+</td>
+<td>3星
+</td>
+<td>4星
+</td>
+<td><a>爆炎树掉落</a>
+</td>
+<td style="text-align:left">（套装仅一件）受到的火元素附着效果的持续时间减少40%
+</td>
+<td style="text-align:left">无
+</td>
+<td style="text-align:left">元素附着效果减轻<br />
+</td></tr><tr>
+<td><a><img src="images/圣遗物/如雷的盛怒.png" width="60" height="60"></a>
+</td>
+<td><a>如雷的盛怒</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>仲夏庭园：祝圣秘境：净化之炎Ⅲ以上</a>
+</td>
+<td style="text-align:left">获得15%雷元素伤害加成。
+</td>
+<td style="text-align:left">超载、感电、超导反应造成的伤害提升40%。触发这些元素反应时，元素战技冷却时间减少1秒。该效果每0.8秒最多触发一次。
+</td>
+<td style="text-align:left">元素伤害
+雷<br />减少元素战技CD
+</td></tr><tr>
+<td><a><img src="images/圣遗物/冰风迷途的勇士.png" width="60" height="60"></a>
+</td>
+<td><a>冰风迷途的勇士</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>芬德尼尔之顶：祝圣秘境：告死之霜Ⅰ以上</a>
+</td>
+<td style="text-align:left">获得15%冰元素伤害加成
+</td>
+<td style="text-align:left">攻击处于冰元素影响状态下的敌人时，暴击率提高20%；若敌人处于冰冻状态下，暴击率额外提高20%。（注：角色离场后，该效果仍然会触发。）
+</td>
+<td style="text-align:left">冰<br />暴击率；元素伤害
+</td></tr><tr>
+<td><a><img src="images/圣遗物/染血的骑士道.png" width="60" height="60"></a>
+</td>
+<td><a>染血的骑士道</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>华池岩岫：祝圣秘境：岩牢Ⅰ以上  </a>
+</td>
+<td style="text-align:left">造成的物理伤害提高25%。
+</td>
+<td style="text-align:left">击败敌人后的10秒内，施放重击时不消耗体力，且造成的伤害提升50%。
+</td>
+<td style="text-align:left">物理伤害<br />伤害
+</td></tr><tr>
+<td><a><img src="images/圣遗物/昔日宗室之仪.png" width="60" height="60"></a>
+</td>
+<td><a>昔日宗室之仪</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>华池岩岫：祝圣秘境：岩牢Ⅰ以上</a>
+</td>
+<td style="text-align:left">元素爆发造成的伤害提升20％ 。
+</td>
+<td style="text-align:left">施放元素爆发后，队伍中所有角色攻击力提升20％，持续12秒。该效果不可叠加。
+</td>
+<td style="text-align:left">攻击力<br />元素爆发
+</td></tr><tr>
+<td><a><img src="images/圣遗物/沉沦之心.png" width="60" height="60"></a>
+</td>
+<td><a>沉沦之心</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>芬德尼尔之顶：祝圣秘境：告死之霜Ⅰ以上</a>
+</td>
+<td style="text-align:left">获得15%水元素伤害加成。
+</td>
+<td style="text-align:left">施放元素战技后的15秒内，普通攻击与重击造成的伤害提高30%。
+</td>
+<td style="text-align:left">水<br />元素伤害;普攻伤害
+;重击伤害
+</td></tr><tr>
+<td><a><img src="images/圣遗物/悠古的磐岩.png" width="60" height="60"></a>
+</td>
+<td><a>悠古的磐岩</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>孤云凌霄之处：祝圣秘境：惊蛰Ⅲ以上</a>
+</td>
+<td style="text-align:left">获得15%岩元素伤害加成。
+</td>
+<td style="text-align:left">获得结晶反应形成的晶片时，队伍中所有角色获得35%对应元素伤害加成，持续10秒。同时只能通过该效果获得一种元素伤害加成。
+</td>
+<td style="text-align:left">岩<br />元素伤害
+</td></tr><tr>
+<td><a><img src="images/圣遗物/翠绿之影.png" width="60" height="60"></a>
+</td>
+<td><a>翠绿之影</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>铭记之谷：祝圣秘境：钢铁之舞Ⅱ以上</a>
+</td>
+<td style="text-align:left">获得15%风元素伤害加成。
+</td>
+<td style="text-align:left">扩散反应造成的伤害提升60%，根据扩散的元素类型，降低受到影响的敌人40%的对应元素抗性，持续10秒。（注：需要在扩散反应时，触发该反应的角色在场上才可触发4件套效果。触发后角色下场效果不会提前消失。）
+</td>
+<td style="text-align:left">风<br />元素伤害;减抗
+</td></tr><tr>
+<td><a><img src="images/圣遗物/苍白之火.png" width="60" height="60"></a>
+</td>
+<td><a>苍白之火</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>山脊守望：祝圣秘境：不移I以上</a>
+</td>
+<td style="text-align:left">造成的物理伤害提高25%。
+</td>
+<td style="text-align:left">元素战技命中敌人后，攻击力提升9%。该效果持续7秒，至多叠加2层，每0.3秒至多触发一次。叠满2层时，2件套的效果提升100%。
+</td>
+<td style="text-align:left">物理伤害<br />攻击力
+</td></tr><tr>
+<td><a><img src="images/圣遗物/流浪大地的乐团.png" width="60" height="60"></a>
+</td>
+<td><a>流浪大地的乐团</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>击杀精英级怪物,BOSS级怪物</a>
+</td>
+<td style="text-align:left">元素精通提高80点。
+</td>
+<td style="text-align:left">装备该圣遗物套装的角色为法器、弓箭角色时，角色重击造成的伤害提高35%。
+</td>
+<td style="text-align:left">元素精通<br />重击伤害
+</td></tr><tr>
+<td><a><img src="images/圣遗物/逆飞的流星.png" width="60" height="60"></a>
+</td>
+<td><a>逆飞的流星</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>孤云凌霄之处：祝圣秘境：惊蛰Ⅲ以上</a>
+</td>
+<td style="text-align:left">护盾强效提高35%
+</td>
+<td style="text-align:left">处于护盾庇护下时，额外获得40%普通攻击和重击伤害加成。
+</td>
+<td style="text-align:left">普攻伤害<br />重击伤害;护盾强效
+</td></tr><tr>
+<td><a><img src="images/圣遗物/平息鸣雷的尊者.png" width="60" height="60"></a>
+</td>
+<td><a>平息鸣雷的尊者</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>仲夏庭园：祝圣秘境：净化之炎Ⅲ以上</a>
+</td>
+<td style="text-align:left">雷元素抗性提高40%。
+</td>
+<td style="text-align:left">对处于雷元素影响下的敌人造成的伤害提升35%。 
+</td>
+<td style="text-align:left">元素抗性<br />雷;伤害
+</td></tr><tr>
+<td><a><img src="images/圣遗物/渡过烈火的贤人.png" width="60" height="60"></a>
+</td>
+<td><a>渡过烈火的贤人</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>无妄引咎密宫：祝圣秘境：寒霜Ⅰ以上</a>
+</td>
+<td style="text-align:left">火元素抗性提高40%。
+</td>
+<td style="text-align:left">对处于火元素影响下的敌人造成的伤害提升35%。
+</td>
+<td style="text-align:left">元素抗性<br />伤害;火
+</td></tr><tr>
+<td><a><img src="images/圣遗物/千岩牢固.png" width="60" height="60"></a>
+</td>
+<td><a>千岩牢固</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>山脊守望：祝圣秘境：不移I以上</a>
+</td>
+<td style="text-align:left">生命值提升20%
+</td>
+<td style="text-align:left">元素战技命中敌人后，使队伍中附近的所有角色攻击力提升20%，护盾强效提升30%，持续3秒。该效果每0.5秒至多触发一次。装备此圣遗物套装效果的角色处于队伍后台时，依然能触发该效果。
+</td>
+<td style="text-align:left">生命值<br />攻击力;护盾强效;后台触发
+</td></tr><tr>
+<td><a><img src="images/圣遗物/被怜爱的少女.png" width="60" height="60"></a>
+</td>
+<td><a>被怜爱的少女</a>
+</td>
+<td>1星
+</td>
+<td>3星
+</td>
+<td><a>铭记之谷：祝圣秘境：钢铁之舞Ⅱ以上</a>
+</td>
+<td style="text-align:left">角色造成的治疗效果提升15%
+</td>
+<td style="text-align:left">施放元素战技或元素爆发后的10秒内，队伍中所有角色受治疗效果加成提高20%。
+</td>
+<td style="text-align:left">治疗效果<br />受治疗效果
+</td></tr><tr>
+<td><a><img src="images/圣遗物/炽烈的炎之魔女.png" width="60" height="60"></a>
+</td>
+<td><a>炽烈的炎之魔女</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a>无妄引咎密宫：祝圣秘境：寒霜Ⅰ以上</a>
+</td>
+<td style="text-align:left">获得15%火元素伤害加成。
+</td>
+<td style="text-align:left">超载、燃烧反应造成的伤害提升40%，蒸发、融化反应的加成系数提高15%。施放元素战技后的10秒内，二件套的效果提高50%，该效果最多叠加3次。
+</td>
+<td style="text-align:left">元素伤害<br />火
+</td></tr><tr>
+<td><a><img src="images/圣遗物/角斗士的终幕礼.png" width="60" height="60"></a>
+</td>
+<td><a>角斗士的终幕礼</a>
+</td>
+<td>4星
+</td>
+<td>5星
+</td>
+<td><a> 击杀精英级怪物,BOSS级怪物，深境螺旋，通关周常boss。</a>
+</td>
+<td style="text-align:left">攻击力提高18%。
+</td>
+<td style="text-align:left">装备该圣遗物套装的角色为单手剑、双手剑、长柄武器角色时，角色普通攻击造成的伤害提高35%。 
+</td>
+<td style="text-align:left">攻击力<br />普攻伤害
+</td></tr>
+</table>
+    </div>
+   
+</div>
+  <div class="rightcolumn">
+    <div class="card3">
+      <div class="parent">
+  <a href="#" class="link1"><img src="images/角色.png"></a>
+  <a href="#" class="link2"><img src="images/武器.png"></a>
+  <a href="#" class="link4"><img src="images/圣遗物.png"></a>
+  <a href="#" class="link5"><img src="images/材料.png"></a>
+</div>
+    </div>
+    <div class="card3">
+   <input type="button" id="praise1" value="为本攻略站点一波赞(0)">
+   <input type="button" onclick="share()"  value="分享本攻略给需要的giegie">
+</div>
+    </div>
+
+  <div class="aside"> 
+    <div >
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+      </svg>
+      </a>
+    </div>
+    <div >
+      <a href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+      </svg>
+      </a>
+    </div>
+    <div >
+      <a href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+      <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+      </svg>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="footer">
+  <a>Copyright © 2021 版权所有YXT、LQY,联系电话：0871-2333333，E-mail:88886666@163.com</a>
+</div>
+<script src="scripts/23333.js"></script>
+</body>
+</html>
